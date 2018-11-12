@@ -27,6 +27,7 @@ Or on windows you can run it in anaconda after installing OpenCV as numpy and Jy
 * To install numpy and jyupter, run this command `python -m pip install --user numpy jupyter`
 
 **Results after running the program**
+
 ![Alt text](https://github.com/Dev-Akash/Chromatica/blob/master/result/resultOfProject(1).PNG)
 
 ## CONTRIBUTING
