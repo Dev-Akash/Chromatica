@@ -29,6 +29,11 @@ Or on windows you can run it in anaconda after installing OpenCV as numpy and Jy
 **Results after running the program**
 ![Alt text](https://github.com/Dev-Akash/Chromatica/blob/master/result/resultOfProject(1).PNG)
 
+## CONTRIBUTING
+
+Please read [CONTRIBUTION.md](https://github.com/Dev-Akash/Chromatica/blob/master/CONTRIBUTION.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+
 ## Author
 * **Akash Srivastava**-*Initial work*- [Chromatica](https://github.com/dev-akash/Chromatica)
 
