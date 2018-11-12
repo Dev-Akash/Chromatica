@@ -1,7 +1,7 @@
 # Chromatica
 
 An open source project for chromatic editing in videos. It allows user to edit there chromatic background with whatever image they want
-and they can do it freely.
+and they can do it freely. Our vision is to grow it and develop it as a service in a from of software. We are open to Contribution.
 
 ## Getting Started
 To setup this project on your local machine, please follow the following steps:
