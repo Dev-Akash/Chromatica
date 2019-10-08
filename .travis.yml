@@ -23,4 +23,4 @@ install:
   - source activate test-environment
 
 script:
-  Chromatica.ipynb
+  - Chromatica.ipynb
