@@ -1,0 +1,7 @@
+language: Jupyter Notebook
+
+before_script:
+  - composer install --no-interaction
+
+script:
+  - Chromatica.ipynb
