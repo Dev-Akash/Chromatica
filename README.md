@@ -1,4 +1,4 @@
-# Chromatica
+# Chromatica ![GitHub](https://img.shields.io/github/license/Dev-akash/Chromatica)
 
 An open source project for chromatic editing in videos. It allows user to edit there chromatic background with whatever image they want
 and they can do it freely. Our vision is to grow it and develop it as a service in a from of software. We are open to Contribution.
