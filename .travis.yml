@@ -20,7 +20,7 @@ install:
 
   - conda env create -n test-environment python=$TRAVIS_PYTHON_VERSION -f environment.yml
   - source activate test-environment
-  - export DISPLAY=0.0
+  - export DISPLAY=10.0.0.1:0.0
 
 script:
   - py.test
