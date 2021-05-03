@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 
 # Initiallizing the Camera to start Video Capturing
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(-1)
 # Placing the upper bound and lower bound of chroma in hsv
 lb=np.array([0,0,0])        # lb=np.array([190,190,190])
 ub=np.array([100,100,100])  # ub=np.array([255,255,255])
