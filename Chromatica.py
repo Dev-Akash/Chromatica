@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 
 # Initiallizing the Camera to start Video Capturing
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
 # Placing the upper bound and lower bound of chroma in hsv
 lb=np.array([0,0,0])        # lb=np.array([190,190,190])
 ub=np.array([100,100,100])  # ub=np.array([255,255,255])
@@ -43,7 +43,6 @@ green_scale = Scale(chroma_header, variable = var_green, to=255, orient = HORIZO
 green_scale.pack(fill = "x", expand=1)
 
 var_blue = IntVar()
-
 blue_scale = Scale(chroma_header, variable = var_blue, to= 255, orient = HORIZONTAL, label = "Blue")
 blue_scale.pack(fill = "x", expand = 1)
 
@@ -83,7 +82,7 @@ def show_frame():
     # providing final input in canvas by combining frame and image
     canvas = frame.copy()
     canvas[closing != 0] =[0,0,0]
-    print(flag)
+    #print(flag)
     if(flag == 1):
         img = cv2.imread("{}".format(string_p))
         img = cv2.resize(img, (640,480))
@@ -97,20 +96,5 @@ def show_frame():
     lmain.imgtk = imgtk
     lmain.configure(image=imgtk)
     lmain.after(10, show_frame)
-    # inturrupt in while loop.
-    #if cv2.waitKey(1) & 0xFF == ord('q'):
-    #    break
-    #elif cv2.waitKey(1) & 0xFF == ord('f'):
-    #    if count<len(list_of_img)-1:
-    #        count=count+1
-    #        img = list_of_img[count]
-    #    else:
-    #        count=0
-    #elif cv2.waitKey(1) & 0xFF == ord('b'):
-    #    if count>1:
-    #        count=count-1
-    #        img = list_of_img[count]
-    #    else:
-    #        count = len(list_of_img)-1
 show_frame()
 root.mainloop()

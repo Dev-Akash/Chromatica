@@ -1,5 +1,5 @@
 # Chromatica 
-![GitHub](https://img.shields.io/github/license/Dev-akash/Chromatica) ![GitHub last commit](https://img.shields.io/github/last-commit/Dev-Akash/Chromatica) ![GitHub issues](https://img.shields.io/github/issues-raw/Dev-Akash/Chromatica) [![Build Status](https://travis-ci.org/Dev-Akash/Chromatica.svg?branch=master)](https://travis-ci.org/Dev-Akash/Chromatica) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Dev-Akash/Chromatica)
+![GitHub](https://img.shields.io/github/license/Dev-akash/Chromatica) ![GitHub last commit](https://img.shields.io/github/last-commit/Dev-Akash/Chromatica) ![GitHub issues](https://img.shields.io/github/issues-raw/Dev-Akash/Chromatica) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Dev-Akash/Chromatica)
 
 An open source project for chromatic editing in videos. It allows user to edit there chromatic background with whatever image they want
 and they can do it freely. Our vision is to grow it and develop it as a service in a from of software. We are open to Contribution.
